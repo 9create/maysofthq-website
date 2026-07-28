@@ -94,3 +94,9 @@ footer .copyright { margin-top: 10px; }
   text-decoration: none;
 }
 .whatsapp-float svg { width: 28px; height: 28px; fill: white; }
+/* Legal pages */
+.legal-date { text-align: center; font-size: 13px; color: #a8a8a4; margin-bottom: 20px; }
+.content-block h2 { font-size: 18px; font-weight: 500; margin: 32px 0 12px; }
+.content-block ul { margin: 0 0 20px 20px; }
+.content-block li { font-size: 14px; color: #444; line-height: 1.8; font-weight: 300; margin-bottom: 8px; }
+.content-block strong { font-weight: 500; }
