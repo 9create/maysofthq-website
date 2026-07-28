@@ -2,173 +2,84 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MaySoftHQ — Digital Products for Growing Businesses Worldwide</title>
-<meta name="description" content="May Software Solutions — Food safety scanner app,kids coding education,GST invoicing for electrical contractors.Digital products built in Nagpur, India.">
-<link rel="stylesheet" href="style.css">
+<title>May Software Solutions | We build it as our own.</title>
+<meta name="description" content="May Software Solutions — a digital products company building focused software for industries mainstream tech overlooks. Nagpur, India.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #f7f7f6; font-family: 'Inter', sans-serif; color: #1d1d1f; }
+  .frame { max-width: 1100px; margin: 0 auto; background: #ffffff; min-height: 100vh; }
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 28px 48px; border-bottom: 1px solid #ececea; }
+  .brand-mark { display: flex; align-items: center; gap: 10px; font-weight: 500; font-size: 15px; letter-spacing: 0.2px; }
+  .mark-box { width: 26px; height: 26px; border: 1.5px solid #1d1d1f; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; }
+  .nav-links { display: flex; gap: 36px; font-size: 13.5px; color: #6b6b6e; }
+  .nav-links a { text-decoration: none; color: inherit; }
+  .hero { text-align: center; padding: 130px 40px 110px; }
+  .hero .mark-box.lg { width: 64px; height: 64px; border-radius: 14px; font-size: 28px; margin: 0 auto 36px; }
+  .hero h1 { font-weight: 200; font-size: 58px; letter-spacing: -1px; line-height: 1.08; max-width: 720px; margin: 0 auto; }
+  .hero .sub { margin-top: 22px; font-size: 17px; color: #6b6b6e; font-weight: 300; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.6; }
+  .hero .cta { display: inline-block; margin-top: 40px; font-size: 14px; font-weight: 500; color: #1d1d1f; border-bottom: 1px solid #1d1d1f; padding-bottom: 3px; text-decoration: none; }
+  .brands { padding: 0 48px 120px; }
+  .brands-label { text-align: center; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #a8a8a4; margin-bottom: 44px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #ececea; border-left: 1px solid #ececea; }
+  .card { border-right: 1px solid #ececea; border-bottom: 1px solid #ececea; padding: 34px 24px; }
+  .card .name { font-weight: 500; font-size: 15.5px; margin-bottom: 8px; }
+  .card .desc { font-size: 13px; color: #6b6b6e; line-height: 1.55; font-weight: 300; }
+  footer { text-align: center; padding: 40px; border-top: 1px solid #ececea; font-size: 12.5px; color: #a8a8a4; }
+  @media (max-width: 700px) {
+    .hero h1 { font-size: 36px; }
+    .grid { grid-template-columns: 1fr 1fr; }
+    nav { padding: 20px 24px; }
+    .nav-links { display: none; }
+  }
+</style>
 </head>
 <body>
+<div class="frame">
 
-<!-- NAV -->
-<nav class="nav">
-  <div class="nav-logo">MaySoft<span>HQ</span></div>
-  <div class="nav-links">
-    <a href="index.html" class="active">Home</a>
-    <a href="brands.html">Brands</a>
-    <a href="about.html">About</a>
-    <a href="brands.html" class="nav-cta">Our Products</a>
-  </div>
-</nav>
+  <nav>
+    <div class="brand-mark">
+      <div class="mark-box">M</div>
+      May Software Solutions
+    </div>
+    <div class="nav-links">
+      <a href="brands.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-eyebrow">May Software Solutions</div>
-  <h1>Digital products for<br>growing businesses <em>worldwide</em>.</h1>
-  <p class="hero-sub">Built in Nagpur. Engineered for precision. Focused, affordable, and high-impact digital products that mainstream software giants overlook.</p>
-  <a href="brands.html" class="hero-cta">Explore Our Brands →</a>
-  <div class="hero-meta">
-    <div class="meta-item"><div class="n">4</div><div class="l">Products</div></div>
-    <div class="meta-item"><div class="n">Secure & Reliable</div><div class="l">Infrastructure</div></div>
-    <div class="meta-item"><div class="n">2026</div><div class="l">Established.</div></div>
+  <div class="hero">
+    <div class="mark-box lg">M</div>
+    <h1>We build it as our own.</h1>
+    <div class="sub">Digital products built in Nagpur, India — for educators, contractors, and small businesses that mainstream tech overlooks.</div>
+    <a href="brands.html" class="cta">Explore our brands →</a>
   </div>
+
+  <div class="brands">
+    <div class="brands-label">Our Brands</div>
+    <div class="grid">
+      <div class="card">
+        <div class="name">Franklin App Academy</div>
+        <div class="desc">Kids and teens build and publish a real Android app in 8 weeks.</div>
+      </div>
+      <div class="card">
+        <div class="name">VoltaBill</div>
+        <div class="desc">GST invoicing built for electrical contractors — not general billing software.</div>
+      </div>
+      <div class="card">
+        <div class="name">KnowFood</div>
+        <div class="desc">Food ingredient safety, cross-checked against FSSAI, WHO, EFSA and FAO standards.</div>
+      </div>
+      <div class="card">
+        <div class="name">SMS Pro</div>
+        <div class="desc">School management for budget schools — attendance and fees, nothing bloated.</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>MAYSOFTHQ.COM &nbsp;·&nbsp; Nagpur, India</footer>
+
 </div>
-
-<!-- WHAT WE DO -->
-<div class="section">
-  <div class="section-label">What We Do</div>
-  <div class="section-title">One problem. One product. Done right.</div>
-  <p class="body-text">May Software Solutions designs and builds software for industries that mainstream technology companies consistently underserve — independent educators, local healthcare providers, food safety advocates, and vernacular communities. Each product is independent, focused, and value-optimized for agile businesses and growing institutions worldwide.</p>
-
-  <div class="pillars">
-    <div class="pillar">
-      <div class="pillar-line"></div>
-      <div>
-        <div class="pillar-title">Industry-specific</div>
-        <div class="pillar-desc">Each product solves one high-impact problem for one specific industry — zero bloat, just pure utility.</div>
-      </div>
-    </div>
-    <div class="pillar">
-      <div class="pillar-line"></div>
-      <div>
-        <div class="pillar-title">Affordable by design</div>
-        <div class="pillar-desc">Value-optimized engineering. Built for independent businesses and growing institutions — not inflated enterprise or VC budgets.</div>
-      </div>
-    </div>
-    <div class="pillar">
-      <div class="pillar-line"></div>
-      <div>
-        <div class="pillar-title">Independent brands</div>
-        <div class="pillar-desc">Every product operates with its own dedicated identity and domain, laser-focused on its unique user base.</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- BRANDS PREVIEW -->
-<div class="section">
-  <div class="section-label">Our Brands</div>
-  <div class="section-title">A house of focused products</div>
-  <p class="section-sub">Four independent brands, each serving a different industry.</p>
-
-  <div class="brand-grid">
-    <div class="brand-card" onclick="window.open('https://franklinapp.in','_blank')">
-      <div class="brand-card-inner">
-        <div class="brand-mark" style="background:#B8722E">F</div>
-        <div class="brand-body">
-          <div class="brand-name">Franklin App Academy</div>
-          <div class="brand-cat">Education</div>
-          <div class="brand-desc">Coding education for kids aged 8–12. Free, ad-free, live on Google Play.</div>
-        </div>
-      </div>
-      <div class="brand-footer">
-        <span class="brand-status status-live">Live on PlayStore</span>
-        <span class="brand-action">franklinapp.in →</span>
-      </div>
-    </div>
-
-    <div class="brand-card" onclick="showPopup('VoltaBill','GST invoicing for electrical contractors.')">
-      <div class="brand-card-inner">
-        <div class="brand-mark" style="background:#2D6A4F">V</div>
-        <div class="brand-body">
-          <div class="brand-name">VoltaBill</div>
-          <div class="brand-cat">Finance & Billing</div>
-          <div class="brand-desc">AI-powered GST invoicing built specifically for electrical contractors.</div>
-        </div>
-      </div>
-      <div class="brand-footer">
-        <span class="brand-status status-live">Live</span>
-        <span class="brand-action">Visit →</span>
-      </div>
-    </div>
-
-    <div class="brand-card" onclick="showPopup('KnowFood','Food safety scanner — coming soon.')">
-      <div class="brand-card-inner">
-        <div class="brand-mark" style="background:#4A6B5C">K</div>
-        <div class="brand-body">
-          <div class="brand-name">KnowFood</div>
-          <div class="brand-cat">Health & Food Safety</div>
-          <div class="brand-desc">Food safety and ingredient scanner. Scan a product, understand what's really in it.</div>
-        </div>
-      </div>
-      <div class="brand-footer">
-        <span class="brand-status status-soon">Coming Soon</span>
-        <span class="brand-action">Learn more →</span>
-      </div>
-    </div>
-  </div>
-
-  <a href="brands.html" style="display:inline-block;margin-top:20px;font-size:13px;font-weight:600;color:var(--ink);border-bottom:1px solid var(--gold);padding-bottom:2px;">View all our brands →</a>
-</div>
-
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="footer-top">
-    <div>
-      <div class="footer-brand">MaySoft<span>HQ</span></div>
-      <div>May Software Solutions</div>
-      <div>UDYAM-MH-20-0322190 · Nagpur, Maharashtra</div>
-    </div>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="brands.html">Brands</a>
-      <a href="about.html">About Us</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms & Conditions</a>
-      <a href="disclaimer.html">Disclaimer</a>
-      <a href="sitemap.html">Sitemap</a>
-    </div>
-  </div>
-  <div class="footer-bottom">© 2026 May Software Solutions. All rights reserved.</div>
-</footer>
-
-<!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/919922775867" class="wa-float" target="_blank" title="Chat on WhatsApp">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-  </svg>
-</a>
-
-<!-- POPUP -->
-<div class="popup-overlay" id="popup" onclick="hidePopup(event)">
-  <div class="popup">
-    <div class="popup-icon">🚀</div>
-    <div class="popup-title" id="popup-title">Coming Soon</div>
-    <div class="popup-desc" id="popup-desc">We're working hard on this. Stay tuned!</div>
-    <button class="popup-close" onclick="hidePopup()">Got it</button>
-  </div>
-</div>
-
-<script>
-function showPopup(name, desc) {
-  document.getElementById('popup-title').textContent = name + ' — Coming Soon';
-  document.getElementById('popup-desc').textContent = desc + ' We\'re working hard on this. Stay tuned!';
-  document.getElementById('popup').classList.add('show');
-}
-function hidePopup(e) {
-  if (!e || e.target === document.getElementById('popup')) {
-    document.getElementById('popup').classList.remove('show');
-  }
-}
-</script>
 </body>
 </html>
