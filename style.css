@@ -45,8 +45,8 @@ nav {
 /* Brand grid */
 .brands { padding: 0 48px 120px; }
 .brands-label { text-align: center; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #a8a8a4; margin-bottom: 44px; }
-.grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #ececea; border-left: 1px solid #ececea; }
-.card { border-right: 1px solid #ececea; border-bottom: 1px solid #ececea; padding: 34px 24px; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #ececea; border-left: 1px solid #ececea; align-items: stretch; }
+.card { border-right: 1px solid #ececea; border-bottom: 1px solid #ececea; padding: 34px 24px; display: flex; flex-direction: column; height: 100%; }
 .card .name { font-weight: 500; font-size: 15.5px; margin-bottom: 8px; }
 .card .desc { font-size: 13px; color: #6b6b6e; line-height: 1.55; font-weight: 300; }
 
@@ -67,7 +67,7 @@ footer { text-align: center; padding: 40px; border-top: 1px solid #ececea; font-
   .nav-links { display: none; }
 }
 /* Card links (Play Store / Website) */
-.card-links { margin-top: 14px; display: flex; flex-direction: column; gap: 4px; }
+.card-links { margin-top: auto; padding-top: 14px; display: flex; flex-direction: column; gap: 4px; }
 .card-links a { font-size: 12px; color: #1d1d1f; font-weight: 500; text-decoration: none; border-bottom: 1px solid #d8d5cd; width: fit-content; }
 .card-links a:hover { border-color: #1d1d1f; }
 .card-links .soon { font-size: 12px; color: #a8a8a4; font-style: italic; }
